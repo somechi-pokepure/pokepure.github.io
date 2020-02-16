@@ -1,0 +1,256 @@
+
+body{
+	margin: 0;
+}
+
+@font-face{
+	font-family: TRTaishoMinStd-R;
+	src:url(./fonts/TRTaishoMinStd-R.otf);
+
+}
+
+
+/*ここから : Site-menu関連,サイトメニュー(画面上)*/
+
+.header-5 {
+  box-sizing: border-box;
+ 
+  width: 100%;
+  background-color: #011936;
+
+  font-family: TRTaishoMinStd-R;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 1rem 0.8em;
+  margin: 0 0;
+  font-size: 1.2em;
+
+
+
+}
+
+
+
+
+.header-nav-list {
+  display: inline-block;
+
+margin: 0;
+
+	padding: 15px 0;
+
+
+}
+
+.header-nav-item {
+  float: left;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FCBA04;
+  text-align: center;
+  list-style: none;
+
+
+
+
+}
+
+.header-nav-item a {
+  text-decoration: none;
+}
+
+.header-ham {
+  display: none;
+}
+
+.menu2 {
+  width: 20px;
+  height: 3px;
+  margin: 4px 0;
+  margin-right: 0;
+  background-color: #333;
+}
+
+.select {
+  color: #FCBA04;
+  border-bottom: solid 2px white;
+}
+
+.header-nav-item:hover {
+  background: #eee;
+}
+
+.pokepure_logo img {
+  width: 70px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-nav-list {
+    display: none;
+  }
+
+  .header-nav {
+    margin: 0 0 0 auto;
+  }
+
+  .header-ham {
+    display: block;
+  }
+}
+
+
+/*ここまで : Site-menu関連,サイトメニュー(画面上)*/
+
+
+
+.split-box{
+	position:absolute;
+	width:20%;
+	height:100%;
+}
+
+
+
+/*ここから : Works-menu関連,作品メニュー(画面左)*/
+
+.Works-menu {
+	left:0%; /* 画面左詰 */
+
+	background-color: #590004;
+	/*padding-left: -20px;*/
+
+	overflow: scroll;
+	font-family: TRTaishoMinStd-R;
+}
+
+
+.Works-menu ul {
+
+	list-style-type: none;
+	padding:0 20px;
+
+
+}
+
+
+.Works-menu ul li{
+
+
+
+	padding: 10px 0;
+	margin: 8px 0;
+
+}
+
+.Works-menu ul li a{
+
+	text-decoration: none;
+	color: #FCBA04;
+	font-family: TRTaishoMinStd-R;
+
+}
+
+
+.Works-menu h2{
+
+
+
+	color: #FCBA04;
+	/*margin: 5px 20px; */
+	padding-top: 5px;
+	text-align: center;
+
+
+
+
+}
+
+.Edited_border_Nline{
+
+	/*一本線のボーダー*/
+
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	width: 80%;
+	border-top: solid 2px #FCBA04;
+
+
+
+}
+
+.Edited_border_DashLine{
+
+	/*点線のボーダー*/
+
+	margin-top: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	border-bottom:  dashed 2px #FCBA04;
+
+
+
+}
+
+/*ここまで : Works-menu関連,作品メニュー(画面左)*/
+
+
+
+/*ここから : Works-contents関連,作品紹介/解説(画面右)*/
+
+.Works-contents {
+	left:20%; /* Works-menu分の間を開けて、そこから右側全てがWorks-contents */
+	width: 80%;
+	overflow-y:scroll;
+
+	background-color: #f4fffd;
+
+}
+
+.Works-contents_container{
+
+margin:4%;
+font-family: TRTaishoMinStd-R;
+}
+
+
+.Works-contents_container h2{
+
+padding: 25px 0;
+
+font-size: 30px;
+
+}
+
+.Works-contents_container h3{
+
+font-size: 25px;
+
+}
+
+.Works-contents_container p{
+
+padding-left: 5%;
+font-size: 18px;
+
+}
+
+.Edited_border_Nline_contents{
+
+	/*一本線のボーダー*/
+
+	margin-top: 25px;
+margin-left: 5%;
+margin-right: 5%;
+	width: 85%;
+	border-top: solid 2px #000000;
+
+}

@@ -217,12 +217,24 @@ margin: 0;
 
 .Works-contents_container{
 
-margin:4%;
+margin-top:4%;
+margin-left:2%;
+margin-right:4%;
+margin-bottom:4%;
+
+
 font-family: TRTaishoMinStd-R;
 }
 
+.Game_info{
 
-.Works-contents_container h2{
+padding-left: 6%;
+
+
+}
+
+
+.Works-contents_container h1{
 
 padding: 25px 0;
 
@@ -230,11 +242,20 @@ font-size: 30px;
 
 }
 
-.Works-contents_container h3{
+.Works-contents_container h2{
 
 font-size: 25px;
 
 }
+
+
+
+.Works-contents_container h3{
+
+font-size: 25px;
+text-align: center;
+}
+
 
 .Works-contents_container p{
 
@@ -243,13 +264,38 @@ font-size: 18px;
 
 }
 
+
+
+
+
+.Choose_stage { 
+
+
+margin-top: 5%;
+margin-right: 5%;
+margin-left: 5%;
+margin-bottom: 5%; 
+
+
+
+ }
+
+.Choose_stage a{
+
+color: white;
+
+}
+
+
+
 .Edited_border_Nline_contents{
 
 	/*一本線のボーダー*/
 
-	margin-top: 25px;
-margin-left: 5%;
+	margin-top: 5%;
+margin-left: calc(7% + 4px) ;
 margin-right: 5%;
+margin-bottom: 5%;
 	width: 85%;
 	border-top: solid 2px #000000;
 

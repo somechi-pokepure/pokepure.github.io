@@ -10,7 +10,11 @@ body{
 }
 
 
-/*ここから : Site-menu関連,サイトメニュー(画面上)*/
+/*---------------------------------------------------
+
+	ここから : Site-menu関連,サイトメニュー(画面上)
+
+---------------------------------------------------*/
 
 .header-5 {
   box-sizing: border-box;
@@ -115,12 +119,15 @@ margin: 0;
 	height:100%;
 }
 
+/*---------------------------------------------------
 
+	ここから : Works-menu関連,作品メニュー(画面左)
 
-/*ここから : Works-menu関連,作品メニュー(画面左)*/
+---------------------------------------------------*/
 
 .Works-menu {
 	left:0%; /* 画面左詰 */
+
 
 	background-color: #590004;
 	/*padding-left: -20px;*/
@@ -166,9 +173,6 @@ margin: 0;
 	padding-top: 5px;
 	text-align: center;
 
-
-
-
 }
 
 .Edited_border_Nline{
@@ -196,15 +200,30 @@ margin: 0;
 	width: 80%;
 	border-bottom:  dashed 2px #FCBA04;
 
+}
 
+
+
+.outlook_stage{
+
+text-align: center;
+
+margin-bottom: 25px;
 
 }
+
+
+
 
 /*ここまで : Works-menu関連,作品メニュー(画面左)*/
 
 
 
-/*ここから : Works-contents関連,作品紹介/解説(画面右)*/
+/*---------------------------------------------------
+
+	ここから : Works-contents関連,作品紹介/解説(画面右)
+
+---------------------------------------------------*/
 
 .Works-contents {
 	left:20%; /* Works-menu分の間を開けて、そこから右側全てがWorks-contents */
@@ -221,7 +240,6 @@ margin-top:4%;
 margin-left:2%;
 margin-right:4%;
 margin-bottom:4%;
-
 
 font-family: TRTaishoMinStd-R;
 }
@@ -254,13 +272,15 @@ font-size: 25px;
 
 font-size: 25px;
 text-align: center;
+/*background-color: pink;*/
 }
 
 
 .Works-contents_container p{
 
-padding-left: 5%;
+padding:0% 20% 0% 20%;
 font-size: 18px;
+/*background-color: yellow;*/
 
 }
 
@@ -300,4 +320,3 @@ margin-bottom: 5%;
 	border-top: solid 2px #000000;
 
 }
-
